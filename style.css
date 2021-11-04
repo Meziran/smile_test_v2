@@ -1,0 +1,78 @@
+/* H6 */
+@font-face {
+  font-family: "Hipstelvetica";
+  src: url("./fonts/Hipstelvetica.ttf");
+  src: url("./fonts/Hipstelvetica.eot?iefix") format("eot"),
+    url("./fonts/Hipstelvetica.woff") format("woff"),
+    url("./fonts/Hipstelvetica.ttf") format("truetype"),
+    url("./fonts/Hipstelvetica.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.header-color {
+  font-size: 12px;
+  font-family: "Hipstelvetica";
+  color: rgb(255, 51, 51);
+  font-weight: bold;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.header-title {
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  color: #333;
+  line-height: 2;
+}
+/* H6 */
+
+/* LINK */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.link-default {
+  color: #333;
+  border-bottom: 1px solid #5c5c5c;
+  padding-bottom: 8px;
+}
+.link-active {
+}
+.link-visited {
+}
+.link-working {
+}
+.link {
+  text-decoration: none;
+  width: 300px;
+  height: 30px;
+  /* padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px; */
+
+  font-size: 24px;
+  font-family: "Marvel";
+  font-weight: bold;
+  line-height: 1.5;
+}
+/* .link-default:link {
+  color: #5c5c5c;
+  border-bottom: 1px solid #5c5c5c;
+  padding-bottom: 8px;
+}
+.link-test:visited {
+  color: #adadad;
+  border-bottom: 1px solid #e1e1e1;
+}
+.link-test:hover {
+  color: #2d2d2d;
+  border-bottom: 1px solid #ffffff;
+  background-color: #e1e1e1;
+}
+.link-test:active {
+  color: #2d2d2d;
+  border-bottom: 1px solid #ffffff;
+} */
+/* LINK */
