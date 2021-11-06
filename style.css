@@ -109,7 +109,9 @@ ul {
   clip: rect(0 0 0 0);
   position: absolute;
 }
-
+/* .checkbox-sq {
+  display: vertical-align;
+} */
 .checkbox-label {
   position: relative;
   padding-left: 28px;
@@ -136,18 +138,125 @@ ul {
 .check-icon {
   position: absolute;
   display: inline-block;
-  width: 16px;
-  height: 16px;
-
-  margin-top: 8px;
-  margin-left: 2px;
-
-  border-radius: 2px;
+  width: 13px;
+  height: 13px;
+  margin-top: 10px;
+  margin-left: -25px;
   z-index: 2;
   fill: transparent;
 }
 
-.checkbox-input:checked + .check-icon {
-  fill: red;
+.checkbox-label-checked {
+  position: relative;
+  padding-left: 28px;
+
+  font-size: 24px;
+  font-family: "Marvel";
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
 }
+.checkbox-label-checked::before {
+  content: "";
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  background-color: #22f8b9;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  z-index: 1;
+}
+
+.check-icon-check {
+  position: absolute;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-top: 10px;
+  margin-left: -25px;
+  z-index: 2;
+  fill: #0000ff;
+}
+/* .checkbox-input:checked + .check-icon {
+  fill: #0000ff;
+} */
+.checkbox:disabled {
+  background-color: #eaeaea;
+}
+
+.checkbox-label-disabled {
+  position: relative;
+  padding-left: 28px;
+
+  font-size: 24px;
+  font-family: "Marvel";
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+}
+.checkbox-label-disabled::before {
+  content: "";
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  background-color: #eaeaea;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  z-index: 1;
+}
+
 /* /CHECKBOX-SQUERE */
+.checkbox-input-works {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+.checkbox-label-works {
+  position: relative;
+  padding-left: 28px;
+
+  font-size: 24px;
+  font-family: "Marvel";
+  font-weight: bold;
+  line-height: 1.5;
+  color: #000000;
+}
+.checkbox-label-works::before {
+  content: "";
+  display: block;
+
+  width: 20px;
+  height: 20px;
+  background-color: #22f8b9;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  z-index: 1;
+}
+
+.check-icon {
+  position: absolute;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-top: 10px;
+  margin-left: -25px;
+  z-index: 2;
+  fill: transparent;
+}
+
+.checkbox-input-works:checked + .check-icon {
+  fill: #0000ff;
+}
+.checkbox-input-works:disabled {
+  background-color: #eaeaea;
+}
