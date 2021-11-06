@@ -35,6 +35,11 @@ ul {
 /* H6 */
 
 /* LINK */
+/* .cont-link,
+.section-link {
+  display: inline-block;
+} */
+
 .link-list {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -101,7 +106,10 @@ ul {
   color: #666;
   border-bottom: 1px solid #e1e1e1;
 }
-
+.check-cont,
+.checkbox-sq {
+  display: inline-block;
+}
 /* CHECKBOX-SQUERE */
 .checkbox-input {
   width: 1px;
@@ -251,6 +259,10 @@ ul {
 /* /CHECKBOX-SQUERE */
 
 /* RADIO */
+.radio-position {
+  display: inline-block;
+  margin-left: 80px;
+}
 .radio {
   position: relative;
 }
@@ -416,8 +428,12 @@ ul {
 }
 /* /RADIO */
 /* BUTTON */
+/* .btn-cont {
+  display: inline-block;
+} */
 .btn-send-defolt {
   margin-top: 30px;
+  margin-right: 20px;
   height: 60px;
   width: 130px;
   border: 2px solid#0000ff;
@@ -432,6 +448,7 @@ ul {
 }
 .btn-send-active {
   margin-top: 30px;
+  margin-right: 20px;
   height: 60px;
   width: 130px;
   border: 2px solid#0000ff;
@@ -447,6 +464,7 @@ ul {
 
 .btn-work {
   margin-top: 30px;
+  margin-right: 20px;
   height: 60px;
   width: 130px;
   border: 2px solid#0000ff;
