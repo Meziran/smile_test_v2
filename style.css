@@ -501,7 +501,82 @@ form {
   width: 300px;
   background: transparent;
 }
+.selected-form {
+  margin-top: 50px;
+  /* width: 200px; */
+  /* min-height: 200px; */
 
+  /* display: block;
+  position: relative; */
+  /* overflow: hidden; */
+}
+
+.selected {
+  margin-top: 50px;
+  margin-bottom: auto;
+  width: 300px;
+  /* margin-bottom: 50px; */
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+
+  transition: 250ms;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #999;
+  padding-left: 0;
+}
+.select2-container--default .select2-selection--single {
+  border: none;
+  border-bottom: 2px solid #363636;
+  border-radius: 0;
+}
+
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: transparent;
+  /* color: #ff3333; */
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  /* margin-bottom: 50px; */
+  /* border-bottom: 2px solid #ff3333; */
+  transition: 250ms;
+  padding-left: 0;
+}
+
+.select2-dropdown {
+  border: none;
+  margin-bottom: 10px;
+}
+.select2-results__option {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #999999;
+  font-family: "Marvel";
+  font-weight: bold;
+  border-bottom: 2px solid #999999;
+  transition: 250ms;
+  padding-left: 0;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__clear {
+  /* margin-right: 1px; */
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: relative;
+}
 .form-select {
   display: flex;
   align-items: center;
@@ -512,12 +587,12 @@ form {
 .form-control {
   font-size: 24px;
   font-family: "Marvel";
-  /* color: red; */
+
   font-weight: bold;
   line-height: 1.5;
   outline: 0;
   width: 300px;
-  /* height: 60px; */
+
   border: none;
   border-bottom: 2px solid #363636;
 }
@@ -538,28 +613,35 @@ select {
 }
 .form-decoration {
   margin-top: 20px;
-  color: tomato;
 }
 /* /FORM */
 .selected-cont {
   margin-top: 50px;
   width: 300px;
   min-height: 300px;
+
+  /* display: block;
+  position: relative; */
+  /* overflow: hidden; */
 }
+
 .selected {
   margin-top: 50px;
   width: 300px;
   min-height: 300px;
-  color: #ff3333;
+  color: #999999;
   text-transform: uppercase;
   font-size: 18px;
   font-family: "Marvel";
   font-weight: bold;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-bottom: 1px solid red;
+
   transition: 250ms;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  color: #999;
+  padding-left: 0;
 }
 .select2-container--default .select2-selection--single {
   border: none;
@@ -576,22 +658,47 @@ select {
   font-weight: bold;
   border-bottom: 2px solid #ff3333;
   transition: 250ms;
+  padding-left: 0;
 }
-.second_item {
-  color: rgb(153, 153, 153);
 
-  text-transform: uppercase;
-  line-height: 2;
-  position: absolute;
-  left: 158.297px;
-  top: 489px;
-  z-index: 35;
-}
 .select2-dropdown {
   border: none;
 }
 .select2-results__option {
+  font-size: 18px;
   text-transform: uppercase;
   color: #999999;
-  border-bottom: 1px solid #999999;
+  font-family: "Marvel";
+  font-weight: bold;
+  border-bottom: 2px solid #999999;
+  transition: 250ms;
+  padding-left: 0;
 }
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__clear {
+  /* margin-right: 1px; */
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: relative;
+}
+
+/* .select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  display: none;
+  border: 0;
+  clip: rect(0 0 0 0);
+  position: absolute;
+  border-style: solid;
+} */
