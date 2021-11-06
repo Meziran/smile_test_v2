@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -90,7 +95,6 @@ ul {
 }
 .link-active {
   color: #000;
-
   border-bottom: transparent;
 }
 .link-visited {
@@ -411,3 +415,183 @@ ul {
   background-color: #eaeaea;
 }
 /* /RADIO */
+/* BUTTON */
+.btn-send-defolt {
+  margin-top: 30px;
+  height: 60px;
+  width: 130px;
+  border: 2px solid#0000ff;
+  color: #0000ff;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.7;
+  text-align: center;
+}
+.btn-send-active {
+  margin-top: 30px;
+  height: 60px;
+  width: 130px;
+  border: 2px solid#0000ff;
+  color: #ffffff;
+  background-color: #0000ff;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.btn-work {
+  margin-top: 30px;
+  height: 60px;
+  width: 130px;
+  border: 2px solid#0000ff;
+  color: #0000ff;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.7;
+  text-align: center;
+  transition: 250ms;
+}
+
+.btn-work:hover,
+.btn-work:focus {
+  color: #ffffff;
+  background-color: #0000ff;
+  transition: 250ms;
+}
+/* /BUTTON */
+
+/* FORM */
+.btn-send {
+  margin-top: 30px;
+  height: 60px;
+  width: 130px;
+  border: 2px solid#0000ff;
+  color: #0000ff;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.7;
+  text-align: center;
+  transition: 250ms;
+}
+
+.btn-send:hover,
+.btn-send:focus {
+  color: #ffffff;
+  background-color: #0000ff;
+  transition: 250ms;
+}
+
+form {
+  font-size: 24px;
+  font-family: "Marvel";
+  font-weight: bold;
+  line-height: 1.5;
+  width: 300px;
+  background: transparent;
+}
+
+.form-select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-control {
+  font-size: 24px;
+  font-family: "Marvel";
+  /* color: red; */
+  font-weight: bold;
+  line-height: 1.5;
+  outline: 0;
+  width: 300px;
+  /* height: 60px; */
+  border: none;
+  border-bottom: 2px solid #363636;
+}
+
+.container-form {
+  width: 300px;
+  border: none;
+}
+.sect {
+  border: 1px solid #fff;
+  border-bottom: 2px solid #363636;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.form-decoration {
+  margin-top: 20px;
+  color: tomato;
+}
+/* /FORM */
+.selected-cont {
+  margin-top: 50px;
+  width: 300px;
+  min-height: 300px;
+}
+.selected {
+  margin-top: 50px;
+  width: 300px;
+  min-height: 300px;
+  color: #ff3333;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-bottom: 1px solid red;
+  transition: 250ms;
+}
+.select2-container--default .select2-selection--single {
+  border: none;
+  border-bottom: 2px solid #363636;
+  border-radius: 0;
+}
+.select2-container--default
+  .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: transparent;
+  color: #ff3333;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Marvel";
+  font-weight: bold;
+  border-bottom: 2px solid #ff3333;
+  transition: 250ms;
+}
+.second_item {
+  color: rgb(153, 153, 153);
+
+  text-transform: uppercase;
+  line-height: 2;
+  position: absolute;
+  left: 158.297px;
+  top: 489px;
+  z-index: 35;
+}
+.select2-dropdown {
+  border: none;
+}
+.select2-results__option {
+  text-transform: uppercase;
+  color: #999999;
+  border-bottom: 1px solid #999999;
+}
