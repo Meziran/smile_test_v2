@@ -8,6 +8,15 @@ ul {
   margin: 0;
   list-style-type: none;
 }
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
 /* H6 */
 @font-face {
   font-family: "Hipstelvetica";
